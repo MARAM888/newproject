@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(152, 120, 181);
+}
+
+
+.in{
+    display: block;
+    border-radius: 20px;
+    font-size: larger;
+
+}
+.inputt{
+    font-size: large;
+    border-radius: 20px;
+    font-size: larger;
+
+}
+.btn{
+    background-color: rgb(116, 82, 147);
+    color: white;
+    font-size: larger;
+    margin-left: 50%;
+    border-radius: 20px;
+}

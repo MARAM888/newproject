@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Form</title>
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+
+    
+    <form method="POST" action="">
+        <fieldset>
+        <h2>Formulaire</h2>
+        <div class="form-container">
+        {% csrf_token %}
+        <div class="form-group"><label for="" class="form-grp">Nom:</label> {{ form.nom }}
+        <br>
+    
+        <label for="" class="form-grp">Prénom:</label> {{ form.prenom }}
+        {{form.prenom.errors}}
+        <br>
+    
+        <label for=""class="form-grp" >Email:</label> {{ form.mail }}
+        <br>
+    </div>
+    
+        <button type="submit" class="button">ENVOYER</button>
+    </div>
+</fieldset>
+    </form>
+
+</body>
+</html>
