@@ -14,7 +14,7 @@ export function getFormulaire() {
 }
 
 export function addFormulaire(formulaire) {
-    return axios.post('http://127.0.0.1:8000/Formulaire/', {
+    return axios.post('/Formulaire/', {
         nom: formulaire.nom.value,
         prenom: formulaire.prenom.value,
         mail: formulaire.mail.value,
